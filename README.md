@@ -422,14 +422,3 @@ Kontribusi selalu disambut dengan senang hati! Jika Anda menemukan bug atau memi
 5. Buat Pull Request.
 
 ---
-
-## 📄 Lisensi
-
-Proyek ini dirilis di bawah lisensi [MIT License](LICENSE). Anda bebas untuk menggunakan, memodifikasi, dan mendistribusikan kode ini untuk tujuan komersial maupun non-komersial.
-
----
-
-<div align="center">
-  <b>Dibuat dengan ❤️ untuk menghubungkan percakapan tanpa batas bahasa di seluruh dunia.</b><br>
-  <sub>Copyright © 2026 LinguaChat. All rights reserved.</sub>
-</div>
