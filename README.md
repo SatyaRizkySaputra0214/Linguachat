@@ -410,15 +410,4 @@ Linguachat/
 └── tests/                      # Feature & Unit Tests
 ```
 
----
 
-## 🤝 Kontribusi
-
-Kontribusi selalu disambut dengan senang hati! Jika Anda menemukan bug atau memiliki ide fitur baru:
-1. Fork repositori ini.
-2. Buat branch fitur baru (`git checkout -b feature/AmazingFeature`).
-3. Commit perubahan Anda (`git commit -m 'feat: Add some AmazingFeature'`).
-4. Push ke branch Anda (`git push origin feature/AmazingFeature`).
-5. Buat Pull Request.
-
----
