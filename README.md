@@ -87,16 +87,16 @@ sequenceDiagram
     participant Engine as Translation Engine (Libre/Google)
     actor Penerima as User B (Thai)
 
-    Pengirim->>Client: Ketik "Halo, apa kabar?" & Kirim
+    Pengirim->>Client: Ketik "Halo?" & Kirim
     Client->>Server: POST /api/messages/send
     Server->>DB: Simpan pesan ke `messages` (status: pending)
     Server->>Engine: Request Translate (id -> th)
-    Engine-->>Server: Response ("สวัสดี สบายดีไหม")
+    Engine-->>Server: Response bahasa asal teman
     Server->>DB: Simpan ke `message_translations` (status: done)
     Server->>DB: Update `messages.translation_status = done`
     Server-->>Client: Response Data Pesan
     Client-->>Pengirim: Tampilkan pesan terkirim
-    Server-->>Penerima: Tampilkan pesan versi Bahasa Thai ("สวัสดี...")
+    Server-->>Penerima: Tampilkan pesan versi bahasa asal penerima
 ```
 
 ---
