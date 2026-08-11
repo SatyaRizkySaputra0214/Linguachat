@@ -2,7 +2,6 @@
 
 <div align="center">
 
-![LinguaChat Banner](https://img.shields.io/badge/LinguaChat-v1.0-6366f1?style=for-the-badge&logo=chat&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-13.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![React](https://img.shields.io/badge/React-19.x-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
@@ -85,7 +84,7 @@ sequenceDiagram
     participant Server as Backend (Laravel Service)
     participant DB as Database (MySQL)
     participant Engine as Translation Engine (Libre/Google)
-    actor Penerima as User B (Thai)
+    actor Penerima as User B (Foreigner)
 
     Pengirim->>Client: Ketik "Halo?" & Kirim
     Client->>Server: POST /api/messages/send
