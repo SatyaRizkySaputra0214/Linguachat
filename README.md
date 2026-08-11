@@ -89,7 +89,7 @@ sequenceDiagram
     Pengirim->>Client: Ketik "Halo?" & Kirim
     Client->>Server: POST /api/messages/send
     Server->>DB: Simpan pesan ke `messages` (status: pending)
-    Server->>Engine: Request Translate (id -> th)
+    Server->>Engine: Request Translate 
     Engine-->>Server: Response bahasa asal teman
     Server->>DB: Simpan ke `message_translations` (status: done)
     Server->>DB: Update `messages.translation_status = done`
