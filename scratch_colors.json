@@ -1,0 +1,806 @@
+{
+  "resources\\css\\app.css": [
+    {
+      "lineNum": 75,
+      "line": "--background: oklch(0.985 0 0);"
+    },
+    {
+      "lineNum": 76,
+      "line": "--foreground: oklch(0.145 0 0);"
+    },
+    {
+      "lineNum": 77,
+      "line": "--card: oklch(1 0 0);"
+    },
+    {
+      "lineNum": 78,
+      "line": "--card-foreground: oklch(0.145 0 0);"
+    },
+    {
+      "lineNum": 79,
+      "line": "--popover: oklch(1 0 0);"
+    },
+    {
+      "lineNum": 80,
+      "line": "--popover-foreground: oklch(0.145 0 0);"
+    },
+    {
+      "lineNum": 81,
+      "line": "--primary: oklch(0.56 0.22 265);"
+    },
+    {
+      "lineNum": 82,
+      "line": "--primary-foreground: oklch(0.985 0 0);"
+    },
+    {
+      "lineNum": 83,
+      "line": "--secondary: oklch(0.965 0.01 265);"
+    },
+    {
+      "lineNum": 84,
+      "line": "--secondary-foreground: oklch(0.205 0 0);"
+    },
+    {
+      "lineNum": 85,
+      "line": "--muted: oklch(0.97 0 0);"
+    },
+    {
+      "lineNum": 86,
+      "line": "--muted-foreground: oklch(0.556 0 0);"
+    },
+    {
+      "lineNum": 87,
+      "line": "--accent: oklch(0.965 0.01 265);"
+    },
+    {
+      "lineNum": 88,
+      "line": "--accent-foreground: oklch(0.205 0 0);"
+    },
+    {
+      "lineNum": 89,
+      "line": "--destructive: oklch(0.577 0.245 27.325);"
+    },
+    {
+      "lineNum": 90,
+      "line": "--destructive-foreground: oklch(0.577 0.245 27.325);"
+    },
+    {
+      "lineNum": 91,
+      "line": "--border: oklch(0.91 0 0);"
+    },
+    {
+      "lineNum": 92,
+      "line": "--input: oklch(0.91 0 0);"
+    },
+    {
+      "lineNum": 93,
+      "line": "--ring: oklch(0.56 0.22 265);"
+    },
+    {
+      "lineNum": 94,
+      "line": "--chart-1: oklch(0.646 0.222 41.116);"
+    },
+    {
+      "lineNum": 95,
+      "line": "--chart-2: oklch(0.6 0.118 184.704);"
+    },
+    {
+      "lineNum": 96,
+      "line": "--chart-3: oklch(0.398 0.07 227.392);"
+    },
+    {
+      "lineNum": 97,
+      "line": "--chart-4: oklch(0.828 0.189 84.429);"
+    },
+    {
+      "lineNum": 98,
+      "line": "--chart-5: oklch(0.769 0.188 70.08);"
+    },
+    {
+      "lineNum": 100,
+      "line": "--sidebar: oklch(0.985 0 0);"
+    },
+    {
+      "lineNum": 101,
+      "line": "--sidebar-foreground: oklch(0.145 0 0);"
+    },
+    {
+      "lineNum": 102,
+      "line": "--sidebar-primary: oklch(0.56 0.22 265);"
+    },
+    {
+      "lineNum": 103,
+      "line": "--sidebar-primary-foreground: oklch(0.985 0 0);"
+    },
+    {
+      "lineNum": 104,
+      "line": "--sidebar-accent: oklch(0.965 0.01 265);"
+    },
+    {
+      "lineNum": 105,
+      "line": "--sidebar-accent-foreground: oklch(0.205 0 0);"
+    },
+    {
+      "lineNum": 106,
+      "line": "--sidebar-border: oklch(0.91 0 0);"
+    },
+    {
+      "lineNum": 107,
+      "line": "--sidebar-ring: oklch(0.87 0 0);"
+    },
+    {
+      "lineNum": 111,
+      "line": "--background: oklch(0.13 0 0);"
+    },
+    {
+      "lineNum": 112,
+      "line": "--foreground: oklch(0.985 0 0);"
+    },
+    {
+      "lineNum": 113,
+      "line": "--card: oklch(0.16 0 0);"
+    },
+    {
+      "lineNum": 114,
+      "line": "--card-foreground: oklch(0.985 0 0);"
+    },
+    {
+      "lineNum": 115,
+      "line": "--popover: oklch(0.16 0 0);"
+    },
+    {
+      "lineNum": 116,
+      "line": "--popover-foreground: oklch(0.985 0 0);"
+    },
+    {
+      "lineNum": 117,
+      "line": "--primary: oklch(0.65 0.22 265);"
+    },
+    {
+      "lineNum": 118,
+      "line": "--primary-foreground: oklch(0.13 0 0);"
+    },
+    {
+      "lineNum": 119,
+      "line": "--secondary: oklch(0.25 0.01 265);"
+    },
+    {
+      "lineNum": 120,
+      "line": "--secondary-foreground: oklch(0.985 0 0);"
+    },
+    {
+      "lineNum": 121,
+      "line": "--muted: oklch(0.25 0 0);"
+    },
+    {
+      "lineNum": 122,
+      "line": "--muted-foreground: oklch(0.708 0 0);"
+    },
+    {
+      "lineNum": 123,
+      "line": "--accent: oklch(0.25 0.01 265);"
+    },
+    {
+      "lineNum": 124,
+      "line": "--accent-foreground: oklch(0.985 0 0);"
+    },
+    {
+      "lineNum": 125,
+      "line": "--destructive: oklch(0.396 0.141 25.723);"
+    },
+    {
+      "lineNum": 126,
+      "line": "--destructive-foreground: oklch(0.637 0.237 25.331);"
+    },
+    {
+      "lineNum": 127,
+      "line": "--border: oklch(0.25 0 0);"
+    },
+    {
+      "lineNum": 128,
+      "line": "--input: oklch(0.25 0 0);"
+    },
+    {
+      "lineNum": 129,
+      "line": "--ring: oklch(0.65 0.22 265);"
+    },
+    {
+      "lineNum": 130,
+      "line": "--chart-1: oklch(0.488 0.243 264.376);"
+    },
+    {
+      "lineNum": 131,
+      "line": "--chart-2: oklch(0.696 0.17 162.48);"
+    },
+    {
+      "lineNum": 132,
+      "line": "--chart-3: oklch(0.769 0.188 70.08);"
+    },
+    {
+      "lineNum": 133,
+      "line": "--chart-4: oklch(0.627 0.265 303.9);"
+    },
+    {
+      "lineNum": 134,
+      "line": "--chart-5: oklch(0.645 0.246 16.439);"
+    },
+    {
+      "lineNum": 135,
+      "line": "--sidebar: oklch(0.13 0 0);"
+    },
+    {
+      "lineNum": 136,
+      "line": "--sidebar-foreground: oklch(0.985 0 0);"
+    },
+    {
+      "lineNum": 137,
+      "line": "--sidebar-primary: oklch(0.65 0.22 265);"
+    },
+    {
+      "lineNum": 138,
+      "line": "--sidebar-primary-foreground: oklch(0.985 0 0);"
+    },
+    {
+      "lineNum": 139,
+      "line": "--sidebar-accent: oklch(0.25 0.01 265);"
+    },
+    {
+      "lineNum": 140,
+      "line": "--sidebar-accent-foreground: oklch(0.985 0 0);"
+    },
+    {
+      "lineNum": 141,
+      "line": "--sidebar-border: oklch(0.25 0 0);"
+    },
+    {
+      "lineNum": 142,
+      "line": "--sidebar-ring: oklch(0.439 0 0);"
+    },
+    {
+      "lineNum": 164,
+      "line": "background: oklch(0.88 0 0);"
+    },
+    {
+      "lineNum": 169,
+      "line": "background: oklch(0.75 0 0);"
+    },
+    {
+      "lineNum": 173,
+      "line": "background: oklch(0.3 0 0);"
+    },
+    {
+      "lineNum": 177,
+      "line": "background: oklch(0.4 0 0);"
+    }
+  ],
+  "resources\\js\\app.tsx": [
+    {
+      "lineNum": 35,
+      "line": "color: '#4B5563',"
+    }
+  ],
+  "resources\\js\\components\\app-header.tsx": [
+    {
+      "lineNum": 56,
+      "line": "<div className=\"border-b border-border/80 bg-white dark:bg-zinc-900/80 backdrop-blur-sm\">"
+    },
+    {
+      "lineNum": 71,
+      "line": "className=\"flex h-full w-64 flex-col items-stretch justify-between bg-white dark:bg-zinc-900\""
+    }
+  ],
+  "resources\\js\\components\\bottom-nav.tsx": [
+    {
+      "lineNum": 24,
+      "line": "<nav className=\"fixed bottom-0 left-0 right-0 z-50 border-t border-border/80 bg-white dark:bg-zinc-900/95 backdrop-blur-sm md:hidden safe-area-bottom\">"
+    }
+  ],
+  "resources\\js\\components\\chat\\active-conversations.tsx": [
+    {
+      "lineNum": 104,
+      "line": "<span className=\"absolute -top-0.5 -right-0.5 flex size-4 items-center justify-center rounded-full bg-primary text-[8px] font-bold text-primary-foreground ring-2 ring-white dark:ring-zinc-900\">"
+    }
+  ],
+  "resources\\js\\components\\chat\\view-switcher.tsx": [
+    {
+      "lineNum": 26,
+      "line": "? 'bg-white dark:bg-zinc-800 text-foreground shadow-sm'"
+    },
+    {
+      "lineNum": 38,
+      "line": "? 'bg-white dark:bg-zinc-800 text-foreground shadow-sm'"
+    }
+  ],
+  "resources\\js\\components\\delete-user.tsx": [
+    {
+      "lineNum": 31,
+      "line": "<div className=\"space-y-4 rounded-lg border border-red-100 bg-red-50 p-4 dark:border-red-200/10 dark:bg-red-700/10\">"
+    },
+    {
+      "lineNum": 32,
+      "line": "<div className=\"relative space-y-0.5 text-red-600 dark:text-red-100\">"
+    }
+  ],
+  "resources\\js\\components\\input-error.tsx": [
+    {
+      "lineNum": 12,
+      "line": "className={cn('text-sm text-red-600 dark:text-red-400', className)}"
+    }
+  ],
+  "resources\\js\\components\\passkey-verify.tsx": [
+    {
+      "lineNum": 68,
+      "line": "<span className=\"bg-white px-3 text-[11px] font-medium uppercase tracking-widest text-muted-foreground/80 dark:bg-zinc-900\">"
+    }
+  ],
+  "resources\\js\\components\\theme-toggle.tsx": [
+    {
+      "lineNum": 46,
+      "line": "<Sun className=\"size-5 transition-transform duration-300 hover:rotate-45 text-amber-400 dark:text-amber-300\" />"
+    }
+  ],
+  "resources\\js\\components\\ui\\button.tsx": [
+    {
+      "lineNum": 13,
+      "line": "\"bg-gradient-to-b from-primary to-primary/90 text-primary-foreground shadow-sm hover:from-primary/95 hover:to-primary/85 hover:shadow-md active:shadow-xs\","
+    }
+  ],
+  "resources\\js\\components\\ui\\dialog.tsx": [
+    {
+      "lineNum": 59,
+      "line": "\"bg-background data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[state=closed]:slide-out-to-top-2 data-[state=open]:slide-in-from-top-2 relative z-50 grid w-full max-w-[calc(100%-2rem)] gap-4 rounded-xl border p-6 shadow-xl duration-300 sm:max-w-lg max-h-[calc(100vh-4rem)] overflow-y-auto pointer-events-auto\","
+    }
+  ],
+  "resources\\js\\components\\ui\\dropdown-menu.tsx": [
+    {
+      "lineNum": 43,
+      "line": "\"bg-popover text-popover-foreground data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 z-50 min-w-[8rem] overflow-hidden rounded-md border p-1 shadow-md\","
+    },
+    {
+      "lineNum": 231,
+      "line": "\"bg-popover text-popover-foreground data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 z-50 min-w-[8rem] overflow-hidden rounded-md border p-1 shadow-lg\","
+    }
+  ],
+  "resources\\js\\components\\ui\\navigation-menu.tsx": [
+    {
+      "lineNum": 93,
+      "line": "\"data-[motion^=from-]:animate-in data-[motion^=to-]:animate-out data-[motion^=from-]:fade-in data-[motion^=to-]:fade-out data-[motion=from-end]:slide-in-from-right-52 data-[motion=from-start]:slide-in-from-left-52 data-[motion=to-end]:slide-out-to-right-52 data-[motion=to-start]:slide-out-to-left-52 top-0 left-0 w-full p-2 pr-2.5 md:absolute md:w-auto\","
+    }
+  ],
+  "resources\\js\\components\\ui\\select.tsx": [
+    {
+      "lineNum": 65,
+      "line": "\"bg-popover text-popover-foreground data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 relative z-50 max-h-(--radix-select-content-available-height) min-w-[8rem] origin-(--radix-select-content-transform-origin) overflow-x-hidden overflow-y-auto rounded-md border shadow-md\","
+    }
+  ],
+  "resources\\js\\components\\ui\\sheet.tsx": [
+    {
+      "lineNum": 61,
+      "line": "\"data-[state=closed]:slide-out-to-right data-[state=open]:slide-in-from-right inset-y-0 right-0 h-full w-3/4 border-l sm:max-w-sm\","
+    },
+    {
+      "lineNum": 63,
+      "line": "\"data-[state=closed]:slide-out-to-left data-[state=open]:slide-in-from-left inset-y-0 left-0 h-full w-3/4 border-r sm:max-w-sm\","
+    },
+    {
+      "lineNum": 65,
+      "line": "\"data-[state=closed]:slide-out-to-top data-[state=open]:slide-in-from-top inset-x-0 top-0 h-auto border-b\","
+    },
+    {
+      "lineNum": 67,
+      "line": "\"data-[state=closed]:slide-out-to-bottom data-[state=open]:slide-in-from-bottom inset-x-0 bottom-0 h-auto border-t\","
+    }
+  ],
+  "resources\\js\\components\\ui\\tooltip.tsx": [
+    {
+      "lineNum": 43,
+      "line": "\"bg-primary text-primary-foreground animate-in fade-in-0 zoom-in-95 data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 z-50 max-w-sm rounded-md px-3 py-1.5 text-xs\","
+    }
+  ],
+  "resources\\js\\lang\\en.ts": [
+    {
+      "lineNum": 26,
+      "line": "'Select a conversation or search for friends to start cross-language chatting with auto-translation.',"
+    },
+    {
+      "lineNum": 55,
+      "line": "'Communicate across languages with friends from around the world. Built-in auto-translation.',"
+    }
+  ],
+  "resources\\js\\layouts\\auth\\auth-card-layout.tsx": [
+    {
+      "lineNum": 24,
+      "line": "<div className=\"relative flex min-h-svh flex-col items-center justify-center bg-gradient-to-br from-zinc-50 via-white to-zinc-100 p-4 dark:from-zinc-950 dark:via-zinc-900 dark:to-zinc-950 md:p-10\">"
+    },
+    {
+      "lineNum": 42,
+      "line": "<Card className=\"rounded-2xl border-border/60 shadow-lg shadow-zinc-200/50 dark:shadow-zinc-900/50\">"
+    }
+  ],
+  "resources\\js\\layouts\\auth\\auth-simple-layout.tsx": [
+    {
+      "lineNum": 13,
+      "line": "<div className=\"relative flex min-h-svh flex-col items-center justify-center overflow-hidden bg-gradient-to-br from-slate-50 via-white to-blue-50 p-4 dark:from-zinc-950 dark:via-zinc-900 dark:to-zinc-950 md:p-10\">"
+    },
+    {
+      "lineNum": 20,
+      "line": "<div className=\"absolute -top-48 -right-48 size-96 animate-auth-float rounded-full bg-gradient-to-br from-primary/8 to-primary/3 blur-3xl\" />"
+    },
+    {
+      "lineNum": 21,
+      "line": "<div className=\"absolute -bottom-48 -left-48 size-96 animate-auth-float-delayed rounded-full bg-gradient-to-tr from-primary/8 to-primary/3 blur-3xl\" />"
+    },
+    {
+      "lineNum": 39,
+      "line": "<div className=\"flex size-14 items-center justify-center rounded-2xl bg-gradient-to-br from-primary to-primary/80 shadow-lg shadow-primary/25 ring-1 ring-white/20 backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-primary/30\">"
+    },
+    {
+      "lineNum": 56,
+      "line": "<div className=\"rounded-2xl border border-border/50 bg-white/95 p-8 shadow-xl shadow-zinc-200/60 backdrop-blur-sm transition-shadow duration-300 hover:shadow-2xl hover:shadow-zinc-200/70 dark:border-zinc-800 dark:bg-zinc-900/95 dark:shadow-zinc-900/60 dark:hover:shadow-zinc-900/70\">"
+    }
+  ],
+  "resources\\js\\layouts\\auth\\auth-split-layout.tsx": [
+    {
+      "lineNum": 20,
+      "line": "<div className=\"relative hidden h-full flex-col bg-gradient-to-br from-primary to-violet-800 p-10 text-white lg:flex dark:border-r dark:from-primary/80 dark:to-violet-900\">"
+    },
+    {
+      "lineNum": 52,
+      "line": "<div className=\"rounded-2xl border border-border/60 bg-white p-8 shadow-lg dark:bg-zinc-900 dark:border-zinc-800\">"
+    }
+  ],
+  "resources\\js\\pages\\auth\\forgot-password.tsx": [
+    {
+      "lineNum": 18,
+      "line": "<div className=\"mb-4 text-center text-sm font-medium text-green-600\">"
+    }
+  ],
+  "resources\\js\\pages\\auth\\login.tsx": [
+    {
+      "lineNum": 124,
+      "line": "<div className=\"mt-5 text-center text-sm font-medium text-green-600\">"
+    }
+  ],
+  "resources\\js\\pages\\auth\\register.tsx": [
+    {
+      "lineNum": 272,
+      "line": "className=\"flex h-11 w-full rounded-xl border border-input bg-transparent px-3 py-1 text-sm shadow-xs transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-ring/50 disabled:cursor-not-allowed disabled:opacity-50 dark:bg-zinc-900 text-foreground\""
+    },
+    {
+      "lineNum": 274,
+      "line": "<option value=\"en\" className=\"dark:bg-zinc-900\">English</option>"
+    },
+    {
+      "lineNum": 275,
+      "line": "<option value=\"id\" className=\"dark:bg-zinc-900\">Indonesian (Bahasa Indonesia)</option>"
+    },
+    {
+      "lineNum": 276,
+      "line": "<option value=\"th\" className=\"dark:bg-zinc-900\">Thai (ไทย)</option>"
+    },
+    {
+      "lineNum": 277,
+      "line": "<option value=\"ja\" className=\"dark:bg-zinc-900\">Japanese (日本語)</option>"
+    },
+    {
+      "lineNum": 278,
+      "line": "<option value=\"zh\" className=\"dark:bg-zinc-900\">Chinese (中文)</option>"
+    },
+    {
+      "lineNum": 279,
+      "line": "<option value=\"fr\" className=\"dark:bg-zinc-900\">French (Français)</option>"
+    },
+    {
+      "lineNum": 280,
+      "line": "<option value=\"es\" className=\"dark:bg-zinc-900\">Spanish (Español)</option>"
+    },
+    {
+      "lineNum": 318,
+      "line": "<div className=\"flex size-16 items-center justify-center rounded-2xl bg-gradient-to-tr from-primary/20 via-primary/10 to-transparent border border-primary/20 shadow-inner\">"
+    },
+    {
+      "lineNum": 363,
+      "line": "🔧 Local Test Code: <span className=\"font-mono font-bold text-primary\">{debugOtp}</span> (Click to auto-fill)"
+    }
+  ],
+  "resources\\js\\pages\\auth\\verify-email.tsx": [
+    {
+      "lineNum": 15,
+      "line": "<div className=\"mb-4 text-center text-sm font-medium text-green-600\">"
+    }
+  ],
+  "resources\\js\\pages\\chat\\index.tsx": [
+    {
+      "lineNum": 463,
+      "line": "} w-full lg:w-80 flex-col border-r border-border/60 bg-white dark:bg-zinc-900/80`}>"
+    },
+    {
+      "lineNum": 466,
+      "line": "<div className=\"flex items-center gap-3 px-4 py-3 border-b border-border/40 bg-gradient-to-r from-primary/5 to-transparent\">"
+    },
+    {
+      "lineNum": 533,
+      "line": "} flex-1 flex-col relative min-w-0 bg-accent/10 dark:bg-zinc-950/30`}>"
+    },
+    {
+      "lineNum": 537,
+      "line": "<div className=\"flex items-center justify-between px-4 py-3 border-b border-border/50 bg-white dark:bg-zinc-900/80\">"
+    },
+    {
+      "lineNum": 554,
+      "line": "<span className=\"flex size-1.5 rounded-full bg-emerald-500\"></span>"
+    },
+    {
+      "lineNum": 562,
+      "line": "Auto-Translation"
+    },
+    {
+      "lineNum": 610,
+      "line": ": 'bg-white dark:bg-zinc-800 text-foreground rounded-2xl rounded-bl-md border border-border/40 shadow-sm'"
+    },
+    {
+      "lineNum": 671,
+      "line": "<div className=\"px-4 py-3 border-t border-border/50 bg-white dark:bg-zinc-900/80\">"
+    },
+    {
+      "lineNum": 699,
+      "line": "<div className=\"flex-1 flex flex-col items-center justify-center px-8 text-center bg-gradient-to-b from-transparent to-accent/5\">"
+    },
+    {
+      "lineNum": 701,
+      "line": "<div className=\"size-20 rounded-2xl bg-gradient-to-br from-primary/10 to-violet-500/10 border border-primary/15 flex items-center justify-center shadow-sm\">"
+    },
+    {
+      "lineNum": 737,
+      "line": "<div className=\"rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-700 dark:border-amber-500/20 dark:bg-amber-500/10 dark:text-amber-400\">"
+    }
+  ],
+  "resources\\js\\pages\\dashboard.tsx": [
+    {
+      "lineNum": 10,
+      "line": "<div className=\"grid auto-rows-min gap-4 md:grid-cols-3\">"
+    }
+  ],
+  "resources\\js\\pages\\settings\\profile.tsx": [
+    {
+      "lineNum": 126,
+      "line": "className=\"flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-xs transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 dark:bg-zinc-900 text-foreground\""
+    },
+    {
+      "lineNum": 128,
+      "line": "<option value=\"en\" className=\"dark:bg-zinc-900\">English</option>"
+    },
+    {
+      "lineNum": 129,
+      "line": "<option value=\"id\" className=\"dark:bg-zinc-900\">Indonesian (Bahasa Indonesia)</option>"
+    },
+    {
+      "lineNum": 130,
+      "line": "<option value=\"th\" className=\"dark:bg-zinc-900\">Thai (ไทย)</option>"
+    },
+    {
+      "lineNum": 131,
+      "line": "<option value=\"ja\" className=\"dark:bg-zinc-900\">Japanese (日本語)</option>"
+    },
+    {
+      "lineNum": 132,
+      "line": "<option value=\"zh\" className=\"dark:bg-zinc-900\">Chinese (中文)</option>"
+    },
+    {
+      "lineNum": 133,
+      "line": "<option value=\"fr\" className=\"dark:bg-zinc-900\">French (Français)</option>"
+    },
+    {
+      "lineNum": 134,
+      "line": "<option value=\"es\" className=\"dark:bg-zinc-900\">Spanish (Español)</option>"
+    },
+    {
+      "lineNum": 159,
+      "line": "<div className=\"mt-2 text-sm font-medium text-green-600\">"
+    }
+  ],
+  "resources\\js\\pages\\welcome.tsx": [
+    {
+      "lineNum": 12,
+      "line": "<div className=\"flex min-h-screen flex-col items-center bg-[#FDFDFC] p-6 text-[#1b1b18] lg:justify-center lg:p-8 dark:bg-[#0a0a0a]\">"
+    },
+    {
+      "lineNum": 19,
+      "line": "className=\"inline-block rounded-sm border border-[#19140035] px-5 py-1.5 text-sm leading-normal text-[#1b1b18] hover:border-[#1915014a] dark:border-[#3E3E3A] dark:text-[#EDEDEC] dark:hover:border-[#62605b]\""
+    },
+    {
+      "lineNum": 27,
+      "line": "className=\"inline-block rounded-sm border border-transparent px-5 py-1.5 text-sm leading-normal text-[#1b1b18] hover:border-[#19140035] dark:text-[#EDEDEC] dark:hover:border-[#3E3E3A]\""
+    },
+    {
+      "lineNum": 33,
+      "line": "className=\"inline-block rounded-sm border border-[#19140035] px-5 py-1.5 text-sm leading-normal text-[#1b1b18] hover:border-[#1915014a] dark:border-[#3E3E3A] dark:text-[#EDEDEC] dark:hover:border-[#62605b]\""
+    },
+    {
+      "lineNum": 43,
+      "line": "<div className=\"flex-1 rounded-br-lg rounded-bl-lg bg-white p-6 pb-12 text-[13px] leading-[20px] shadow-[inset_0px_0px_0px_1px_rgba(26,26,0,0.16)] lg:rounded-tl-lg lg:rounded-br-none lg:p-20 dark:bg-[#161615] dark:text-[#EDEDEC] dark:shadow-[inset_0px_0px_0px_1px_#fffaed2d]\">"
+    },
+    {
+      "lineNum": 47,
+      "line": "<p className=\"mb-2 text-[#706f6c] dark:text-[#A1A09A]\">"
+    },
+    {
+      "lineNum": 53,
+      "line": "<li className=\"relative flex items-center gap-4 py-2 before:absolute before:top-1/2 before:bottom-0 before:left-[0.4rem] before:border-l before:border-[#e3e3e0] dark:before:border-[#3E3E3A]\">"
+    },
+    {
+      "lineNum": 54,
+      "line": "<span className=\"relative bg-white py-1 dark:bg-[#161615]\">"
+    },
+    {
+      "lineNum": 55,
+      "line": "<span className=\"flex h-3.5 w-3.5 items-center justify-center rounded-full border border-[#e3e3e0] bg-[#FDFDFC] shadow-[0px_0px_1px_0px_rgba(0,0,0,0.03),0px_1px_2px_0px_rgba(0,0,0,0.06)] dark:border-[#3E3E3A] dark:bg-[#161615]\">"
+    },
+    {
+      "lineNum": 56,
+      "line": "<span className=\"h-1.5 w-1.5 rounded-full bg-[#dbdbd7] dark:bg-[#3E3E3A]\" />"
+    },
+    {
+      "lineNum": 64,
+      "line": "className=\"ml-1 inline-flex items-center space-x-1 font-medium text-[#f53003] underline underline-offset-4 dark:text-[#FF4433]\""
+    },
+    {
+      "lineNum": 84,
+      "line": "<li className=\"relative flex items-center gap-4 py-2 before:absolute before:top-0 before:bottom-1/2 before:left-[0.4rem] before:border-l before:border-[#e3e3e0] dark:before:border-[#3E3E3A]\">"
+    },
+    {
+      "lineNum": 85,
+      "line": "<span className=\"relative bg-white py-1 dark:bg-[#161615]\">"
+    },
+    {
+      "lineNum": 86,
+      "line": "<span className=\"flex h-3.5 w-3.5 items-center justify-center rounded-full border border-[#e3e3e0] bg-[#FDFDFC] shadow-[0px_0px_1px_0px_rgba(0,0,0,0.03),0px_1px_2px_0px_rgba(0,0,0,0.06)] dark:border-[#3E3E3A] dark:bg-[#161615]\">"
+    },
+    {
+      "lineNum": 87,
+      "line": "<span className=\"h-1.5 w-1.5 rounded-full bg-[#dbdbd7] dark:bg-[#3E3E3A]\" />"
+    },
+    {
+      "lineNum": 95,
+      "line": "className=\"ml-1 inline-flex items-center space-x-1 font-medium text-[#f53003] underline underline-offset-4 dark:text-[#FF4433]\""
+    },
+    {
+      "lineNum": 121,
+      "line": "className=\"inline-block rounded-sm border border-black bg-[#1b1b18] px-5 py-1.5 text-sm leading-normal text-white hover:border-black hover:bg-black dark:border-[#eeeeec] dark:bg-[#eeeeec] dark:text-[#1C1C1A] dark:hover:border-white dark:hover:bg-white\""
+    },
+    {
+      "lineNum": 128,
+      "line": "<div className=\"relative -mb-px aspect-[335/364] w-full shrink-0 overflow-hidden rounded-t-lg bg-[#fff2f2] lg:mb-0 lg:-ml-px lg:aspect-auto lg:w-[438px] lg:rounded-t-none lg:rounded-r-lg dark:bg-[#1D0002]\">"
+    },
+    {
+      "lineNum": 131,
+      "line": "className=\"w-full max-w-none translate-y-0 text-[#F53003] opacity-100 transition-all duration-750 dark:text-[#F61500] starting:opacity-0 motion-safe:starting:translate-y-6\""
+    },
+    {
+      "lineNum": 168,
+      "line": "className=\"relative -mt-[6.6rem] -ml-8 w-[438px] max-w-none [--stroke-color:#1B1B18] lg:ml-0 dark:[--stroke-color:#FF750F]\""
+    },
+    {
+      "lineNum": 173,
+      "line": "<g className=\"text-[#1B1B18] opacity-100 mix-blend-darken transition-all delay-300 duration-750 dark:text-black dark:mix-blend-normal starting:opacity-0\">"
+    },
+    {
+      "lineNum": 215,
+      "line": "<g className=\"text-[#F3BEC7] opacity-100 transition-all delay-400 duration-750 dark:text-[#4B0600] starting:opacity-0 motion-safe:starting:-translate-x-[26px]\">"
+    },
+    {
+      "lineNum": 257,
+      "line": "<g className=\"text-[#F8B803] opacity-100 mix-blend-color transition-all delay-400 duration-750 dark:text-[#391800] dark:mix-blend-hard-light starting:opacity-0 motion-safe:starting:-translate-x-[51px]\">"
+    },
+    {
+      "lineNum": 299,
+      "line": "<g className=\"text-[#F3BEC7] opacity-100 mix-blend-multiply transition-all delay-400 duration-750 dark:text-[#733000] dark:mix-blend-normal starting:opacity-0 motion-safe:starting:-translate-x-[78px]\">"
+    },
+    {
+      "lineNum": 341,
+      "line": "<g className=\"text-[#F3BEC7] opacity-100 mix-blend-hard-light transition-all delay-400 duration-750 dark:text-[#4B0600] starting:opacity-0 motion-safe:starting:-translate-x-[102px]\">"
+    },
+    {
+      "lineNum": 383,
+      "line": "<div className=\"absolute inset-0 rounded-t-lg shadow-[inset_0px_0px_0px_1px_rgba(26,26,0,0.16)] lg:rounded-t-none lg:rounded-r-lg dark:shadow-[inset_0px_0px_0px_1px_#fffaed2d]\"></div>"
+    }
+  ],
+  "resources\\js\\services\\chatService.ts": [
+    {
+      "lineNum": 49,
+      "line": "* Open or create a 1-to-1 conversation with a user."
+    }
+  ],
+  "resources\\views\\app.blade.php": [
+    {
+      "lineNum": 25,
+      "line": "background-color: oklch(1 0 0);"
+    },
+    {
+      "lineNum": 29,
+      "line": "background-color: oklch(0.145 0 0);"
+    }
+  ],
+  "resources\\views\\emails\\registration-otp.blade.php": [
+    {
+      "lineNum": 11,
+      "line": "background-color: #f4f4f7;"
+    },
+    {
+      "lineNum": 13,
+      "line": "color: #333333;"
+    },
+    {
+      "lineNum": 18,
+      "line": "background-color: #f4f4f7;"
+    },
+    {
+      "lineNum": 24,
+      "line": "background-color: #ffffff;"
+    },
+    {
+      "lineNum": 28,
+      "line": "border: 1px solid #e5e7eb;"
+    },
+    {
+      "lineNum": 31,
+      "line": "background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);"
+    },
+    {
+      "lineNum": 36,
+      "line": "color: #ffffff;"
+    },
+    {
+      "lineNum": 53,
+      "line": "color: #111827;"
+    },
+    {
+      "lineNum": 59,
+      "line": "color: #4b5563;"
+    },
+    {
+      "lineNum": 63,
+      "line": "background-color: #f8fafc;"
+    },
+    {
+      "lineNum": 64,
+      "line": "border: 2px dashed #6366f1;"
+    },
+    {
+      "lineNum": 75,
+      "line": "color: #6b7280;"
+    },
+    {
+      "lineNum": 83,
+      "line": "color: #4f46e5;"
+    },
+    {
+      "lineNum": 89,
+      "line": "color: #ef4444;"
+    },
+    {
+      "lineNum": 95,
+      "line": "color: #6b7280;"
+    },
+    {
+      "lineNum": 99,
+      "line": "border-top: 1px solid #f3f4f6;"
+    },
+    {
+      "lineNum": 102,
+      "line": "background-color: #f9fafb;"
+    },
+    {
+      "lineNum": 106,
+      "line": "color: #9ca3af;"
+    },
+    {
+      "lineNum": 107,
+      "line": "border-top: 1px solid #f3f4f6;"
+    },
+    {
+      "lineNum": 133,
+      "line": "<ul style=\"margin: 0; padding-left: 20px; color: #6b7280;\">"
+    }
+  ]
+}
