@@ -94,7 +94,6 @@ class RegisterOtpController extends Controller
                 'success' => true,
                 'message' => 'Kode OTP verifikasi telah dikirim ke email Anda.',
                 'email' => $validated['email'],
-                'debug_otp' => config('app.debug') ? $otp : null,
             ]);
         }
 
@@ -154,7 +153,6 @@ class RegisterOtpController extends Controller
             return response()->json([
                 'success' => true,
                 'message' => 'Kode OTP baru berhasil dikirim ke email Anda.',
-                'debug_otp' => config('app.debug') ? $otp : null,
             ]);
         }
 

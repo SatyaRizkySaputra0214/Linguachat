@@ -43,7 +43,6 @@ export default function Register({ passwordRules }: Props) {
     const [isResendingOtp, setIsResendingOtp] = useState<boolean>(false);
     const [resendCooldown, setResendCooldown] = useState<number>(0);
     const [errors, setErrors] = useState<Record<string, string | undefined>>({});
-    const [debugOtp, setDebugOtp] = useState<string | null>(null);
 
     // Dynamic layout headers based on active step
     const pageConfig = useMemo(() => {
@@ -96,9 +95,6 @@ export default function Register({ passwordRules }: Props) {
                 setStep('otp');
                 setOtp('');
                 setResendCooldown(60);
-                if (response.data?.debug_otp) {
-                    setDebugOtp(response.data.debug_otp);
-                }
             }
         } catch (err: unknown) {
             if (axios.isAxiosError(err) && err.response?.data?.errors) {
@@ -126,9 +122,6 @@ export default function Register({ passwordRules }: Props) {
                 toast.success('A fresh verification code has been sent to ' + email);
                 setResendCooldown(60);
                 setOtp('');
-                if (response.data?.debug_otp) {
-                    setDebugOtp(response.data.debug_otp);
-                }
             }
         } catch (err: unknown) {
             if (axios.isAxiosError(err) && err.response?.data?.errors) {
@@ -353,16 +346,6 @@ export default function Register({ passwordRules }: Props) {
                                     <InputOTPSlot index={5} className="size-11 sm:size-12 rounded-lg text-lg font-bold border border-input focus:border-primary" />
                                 </InputOTPGroup>
                             </InputOTP>
-
-                            {debugOtp && (
-                                <button
-                                    type="button"
-                                    onClick={() => setOtp(debugOtp)}
-                                    className="text-xs text-primary bg-primary/10 hover:bg-primary/20 border border-primary/20 rounded-lg px-2.5 py-1 transition-all cursor-pointer"
-                                >
-                                    🔧 Local Test Code: <span className="font-mono font-bold text-primary">{debugOtp}</span> (Click to auto-fill)
-                                </button>
-                            )}
 
                             <InputError message={errors.otp} className="text-center font-medium" />
                         </div>
